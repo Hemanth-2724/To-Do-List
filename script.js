@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Render all tasks on load
     renderAllTasks();
 
-    // Add task on button click or Enter key
+    // Add task on button click
     addTaskBtn.addEventListener("click", addTask);
     todoInput.addEventListener("keydown", (e) => {
         if (e.key === "Enter") addTask();
